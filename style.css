@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+    padding: 15px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background-color: #00dba3;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #222;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero h1 span {
+    color: #00dba3;
+}
+
+.hero button {
+    background-color: #00dba3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#services, #projects, #about, #skills, #contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#services h2, #projects h2, #about h2, #skills h2, #contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.service-container, .project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-box, .project-box, .about-photo {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 45%;
+}
+
+#about .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#about .about-photo {
+    width: 350px;
+    height: 400px;
+    background-color: #444;
+    border-radius: 50%;
+}
+#about img{
+    width: 350px;
+    height: 400px;
+    background-color: #444;
+    border-radius: 50%;
+}
+
+#about button {
+    background-color: #00dba3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color: #444;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact form button {
+    background-color: #00dba3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #282828;
+}
