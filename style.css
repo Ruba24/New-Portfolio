@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     color: #fff;
     background-color: #1c1c1c;
@@ -146,4 +146,28 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: #282828;
+} */
+*{
+        font-family: 'Arial', sans-serif;
+        color: #fff;
+        background-color: #1c1c1c;
+
+}
+nav{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+ul a{
+    text-decoration: none;
+    border-radius: 5px;
+}
+#home{
+    text-align: center;
+    background-color: #222;
 }
